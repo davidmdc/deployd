@@ -49,6 +49,7 @@
   "scripts": {
     "pretest": "npm link && cd test-app && npm install && npm link deployd",
     "test": "mocha --timeout 5000 --exit && cd test-app && node runtests.js",
-    "release": "standard-version"
+    "release": "standard-version",
+    "start": "node server"
   }
 }
